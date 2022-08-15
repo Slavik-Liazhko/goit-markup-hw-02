@@ -26,6 +26,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--light-font-color);
   color: var(--dark-font-color);
+  letter-spacing: 0.03em;
 }
 .visually-hidden {
   position: absolute;
@@ -130,16 +131,16 @@ body {
 }
 
 .features-list-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+
   text-transform: uppercase;
   color: var(--dark-font-color);
 }
 .features-list-text {
-  font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+
   color: var(--desc-font-color);
 }
 /* section-title
@@ -149,7 +150,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+
   color: var(--dark-font-color);
 }
 
@@ -163,14 +164,13 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+
   color: var(--dark-font-color);
 }
 .our-teams-text {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+
   color: var(--desc-font-color);
 }
 .our-teams li {
@@ -189,9 +189,8 @@ footer {
 .footer-adress {
   font-style: normal;
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+
   color: var(--light-font-color);
 }
 .footer-mail,
@@ -199,7 +198,6 @@ footer {
   font-style: normal;
   font-size: 14px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
 
   color: var(--transperent-font-color);
 }
@@ -229,7 +227,8 @@ footer {
   margin: 5px;
 }
 .portfolio-nav-item:hover,
-.portfolio-nav-item:active {
+.portfolio-nav-item:active,
+.portfolio-nav-item:focus {
   color: var(--light-font-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -245,10 +244,8 @@ footer {
   color: var(--dark-font-color);
 }
 .portfolio-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  letter-spacing: 0.03em;
 
   color: var(--desc-font-color);
 }
